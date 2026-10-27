@@ -1,0 +1,26 @@
+{
+  "name": "production-cicd-pipeline",
+  "version": "1.0.0",
+  "description": "Production-grade CI/CD pipeline demonstration project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "devops",
+    "ci-cd",
+    "docker",
+    "kubernetes",
+    "github-actions"
+  ],
+  "author": "Madhu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
